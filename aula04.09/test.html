@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Verifique o usuario e senha se estão corretos 
+
+let user = "admin"
+let pass = "12345"
+
+//<input type= "text" id="usuario">
+user = ducument.getlementById("usuario").value;
+
+//<p id="mensagem"><p/>
+
+function verificar(user, password){}
+    if (user === "admin" && password === "12345"){
+        msg = "Login feito com sucesso!"
+        alert(msg);
+        console.log(msg);
+    } else {
+        msg = "Usuário ou senha invalidos"
+        alert(msg)
+        console.log(msg)
+    }
+
+verificar("admin", "12345")
+verificar("admin", "12")
+
+
+// Ex1: Solicita os dados ao usuário
+//let inputUser = prompt("Digite o nome de usuário:");
+//let inputPass = prompt("Digite a senha:");
+// Verifica se estão corretos
+//if (inputUser === user && inputPass === pass) {
+//    alert("Login efetuado com sucesso!");
+//}   else {
+//    alert("Usuario ou senha incorretos.");
+//}
+
+// Ex2: Verificar cpm base na cor de um semaforo e de pedestre atravessando a rua
+//se posso avançar meu carro
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
